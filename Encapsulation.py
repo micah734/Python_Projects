@@ -11,6 +11,9 @@ obj=cars()
 obj.__brand="Chevy"
 print(obj.__brand)
 
+obj.model
+print(obj.model+ " "+ obj.__brand)
+
 
 class computers():
     def __init__(self):
@@ -26,3 +29,6 @@ obj=computers()
 obj.getType()
 obj.setType("Apple")
 obj.getType()
+
+
+
