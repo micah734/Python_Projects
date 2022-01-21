@@ -13,7 +13,7 @@ class ParentWindow(Frame):
         self.master=master
         self.master.title("New Body of Website")
         self.master.configure(bg="#F0F0F0")
-        self.master.protocol("WM_DELETE_WINDOW")#,lambda:website_func.ask_quit(self))
+        self.master.protocol("WM_DELETE_WINDOW",lambda:website_func.ask_quit(self))
         arg=self.master
         
         website_gui.load_gui(self)
