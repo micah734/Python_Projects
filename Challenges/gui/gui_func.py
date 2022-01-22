@@ -35,7 +35,7 @@ def compare(self):
     before=now-self.seconds_in_day
 
     def last_mod_time(fname):
-        return self.source1_fname
+        return os.path.getmtime(self.source1_fname)
 
     for fname in self.files:
         self.source1_fname=os.path.join(self.source1,fname)
