@@ -16,7 +16,7 @@ def load_gui(self):
     self.btn_browse.grid(row=0,column=0,pady=(10,0))
     self.btn_browse2=tk.Button(self.master,text='Browse...',command=lambda:gui_func.callbackdst(self))
     self.btn_browse2.grid(row=1,column=0,pady=(10,0))
-    self.btn_check=tk.Button(self.master,text='Check for files...',command=lambda:gui_func.compare())
+    self.btn_check=tk.Button(self.master,text='Check for files...',command=lambda:gui_func.compare(self))
     self.btn_check.grid(row=3,column=0,ipady=(5))
     self.btn_close=tk.Button(self.master,text='Close Program')
     self.btn_close.grid(row=3,column=3,ipady=(5),sticky=SE)

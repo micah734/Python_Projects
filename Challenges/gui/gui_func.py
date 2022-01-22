@@ -11,18 +11,23 @@ import gui_gui, gui_main
 
 
 def callback(self):
-    self.source=fd.askdirectory()
-    return self.source
+    path=fd.askdirectory()
+    self.txt_browse.delete(0,END)
+    self.txt_browse.insert(0,path)
+    return path
+
 
 def callbackdst(self):
-    self.recieving=fd.askdirectory()
-    return self.recieving
+    pathdst=fd.askdirectory()
+    self.txt_browse2.delete(0,END)
+    self.txt_browse2.insert(0,pathdst)
+    return pathdst
 
 
 def compare(self):
-    self.source1='{}'.format(callback.self.source())
-    self.recieving='{}'.format(callbackdst.self.recieving())
-    self.files=os.listdir(source1)
+    self.source1='{}'.format(path(self))
+    self.recieving='{}'.format(pathdst(self))
+    self.files=os.listdir(self.source1)
 
     self.seconds_in_day=24*60*60
 
