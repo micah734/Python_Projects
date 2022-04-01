@@ -1,5 +1,5 @@
-# Python_Projects
-Here are the projects that I have worked on throughout my course at the Tech Academy. This will be updated as new projects get added.
+# Python Projects
+Here are the projects that I have worked on during the Tech Academy classes. They consist of webpage and console applications based on Python and Django.
 
 <h1> Projects: </h1>
   <ul>
