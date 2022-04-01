@@ -5,7 +5,7 @@ Here are the projects that I have worked on throughout my course at the Tech Aca
   <ul>
     <li><a href='https://github.com/micah734/Python_Projects/tree/main/Phonebook'>PhoneBook</a></li>
     <li><a href='https://github.com/micah734/Python_Projects/tree/main/Challenges/gui'>Check Files Gui</a></li>
-    <li><a href='https://github.com/micah734/Python_Projects/tree/main/DjangoCheckbook'>Django Checkbook</a></li>
+    <li><a href='https://github.com/micah734/Python_Projects/tree/main/Django_Checkbook'>Django Checkbook</a></li>
    </ul>
   
  <h2>PhoneBook</h2>
